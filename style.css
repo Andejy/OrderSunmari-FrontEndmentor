@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    background-image: url(../order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: hsl(223, 47%, 23%);
+
+}
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.container {
+    background-color: aliceblue;
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+}
+
+
+.Infocontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imgcontainer img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.price {
+    background: hsla(225, 100%, 94%, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 20px; 
+   padding-bottom: 0;
+}
+
+.price-text {
+    box-sizing: border-box;
+    padding: 0 70px 0 15px;
+    font-size: 14px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+.price-text h2 {
+    font-weight: 900;
+    font-size: 14px;
+    padding: 0 0 5px;
+    color: hsl(223, 47%, 23%);
+}
+
+.price-text p {
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+}
+
+.price  a {
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 20px;
+}
+.price a:hover{
+    color:  hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+
+
+.price img {
+    width: 39px;
+    margin-bottom: 25px;
+    
+}
+
+
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    font-size: 1em;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-two {
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+
+}
